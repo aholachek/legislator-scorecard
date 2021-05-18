@@ -935,21 +935,6 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@datadog/browser-core@1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.13.0.tgz#4fa1122765e3762e2dcdd62b1e41a0bb1c2faaf8"
-  integrity sha512-Y9NnHM3iQej1HKmUILquu5ULRYy0ZPhfSAoKk3/PDOyxbNl0bjtxWp0s3QT6NvWSyS0Qb4MTjJ+PPPX7T1N2kQ==
-  dependencies:
-    tslib "1.10.0"
-
-"@datadog/browser-rum@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-1.13.0.tgz#e8be2a805576b9e64c94062cf73fba528617c9d8"
-  integrity sha512-dgRrVBYqGZXjm9MeUWgh0xoCfQaXtSdrVLxoCplJ3l7Lx7tcywqIh3L5uYQVNXq0cwNx78QkQQvTQaCpQaTVFg==
-  dependencies:
-    "@datadog/browser-core" "1.13.0"
-    tslib "1.10.0"
-
 "@google-cloud/paginator@^2.0.0":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@google-cloud/paginator/-/paginator-2.0.3.tgz#c7987ad05d1c3ebcef554381be80e9e8da4e4882"
@@ -2600,6 +2585,13 @@ axios@^0.19.2:
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 axobject-query@^2.1.2:
   version "2.2.0"
@@ -6380,10 +6372,10 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
-follow-redirects@^1.0.0:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
-  integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -14757,11 +14749,6 @@ tsconfig-paths@^3.9.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
-
-tslib@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
-  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
